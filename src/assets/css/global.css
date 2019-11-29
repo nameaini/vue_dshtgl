@@ -21,3 +21,7 @@ body,
 .el-pagination {
     margin-top: 15px;
 }
+.el-cascader-menu__wrap {
+    overflow: hidden;
+    height: 300px;
+}

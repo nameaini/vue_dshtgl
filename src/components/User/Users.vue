@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- <router-link to="/User">新建用户</router-link> -->
         <!-- 面包屑导航区 -->
        <el-breadcrumb separator-class="el-icon-arrow-right">
             <el-breadcrumb-item :to="{ path: '/home' }">首页</el-breadcrumb-item>
@@ -56,6 +57,7 @@
         </el-card>
 
         <!-- 添加用户的对话框 -->
+        
         <el-dialog
             title="添加用户"
             :visible.sync="addDialogVisible"
